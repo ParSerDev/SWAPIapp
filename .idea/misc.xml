@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/parav/AndroidStudioProjects/swapiapp/app/src/main/res/drawable/background.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/parav/AndroidStudioProjects/swapiapp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/parav/AndroidStudioProjects/swapiapp/app/src/main/res/drawable/item.xml" value="0.164" />
+        <entry key="..\:/Users/parav/AndroidStudioProjects/swapiapp/app/src/main/res/drawable/shape_item.xml" value="0.1" />
+        <entry key="..\:/Users/parav/AndroidStudioProjects/swapiapp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/parav/AndroidStudioProjects/swapiapp/app/src/main/res/layout/fragment_sw_category.xml" value="0.1" />
+        <entry key="..\:/Users/parav/AndroidStudioProjects/swapiapp/app/src/main/res/layout/fragment_sw_category_characters.xml" value="0.2" />
+        <entry key="..\:/Users/parav/AndroidStudioProjects/swapiapp/app/src/main/res/layout/fragment_sw_character.xml" value="0.1638888888888889" />
+        <entry key="..\:/Users/parav/AndroidStudioProjects/swapiapp/app/src/main/res/layout/fragment_sw_details.xml" value="0.1" />
+        <entry key="..\:/Users/parav/AndroidStudioProjects/swapiapp/app/src/main/res/layout/fragment_sw_library.xml" value="0.1" />
+        <entry key="..\:/Users/parav/AndroidStudioProjects/swapiapp/app/src/main/res/layout/item_sw.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/parav/AndroidStudioProjects/swapiapp/app/src/main/res/layout/item_sw_category.xml" value="0.2" />
+        <entry key="..\:/Users/parav/AndroidStudioProjects/swapiapp/app/src/main/res/layout/item_sw_character.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/parav/AndroidStudioProjects/swapiapp/app/src/main/res/layout/item_sw_library.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

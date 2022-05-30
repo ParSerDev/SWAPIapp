@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">swapiapp</string>
+    <string name="character_name">Name = %1$s</string>
+    <string name="character_gender">Gender = %1$s</string>
+    <string name="character_birth_year">Birth year = %1$s</string>
+    <string name="character_height">Height = %1$s</string>
+    <string name="character_mass">Mass = %1$s</string>
+    <string name="character_hair_color">Hair color = %1$s</string>
+    <string name="character_eye_color">Eye color = %1$s</string>
+    <string name="character_skin_color">Skin color = %1$s</string>
+</resources>
