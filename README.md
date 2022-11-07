@@ -1,5 +1,17 @@
 # SWAPIapp
 
-STAR WARS API presentation project narrowed to characters category but with the possibility of future extension.
+STAR WARS API project.
 
-Technologies used: Clean Architecture, MVVM, Retrofit2, Dagger-Hilt, Coroutines, Flows, Navigation Component
+Technologies used: 
+· Multi Module
+· Single Activity
+· Clean Architecture
+· MVVM
+· Central declaration of dependencies (TOML)
+· Retrofit 2
+· Dagger 2
+· Coroutines
+· Flows
+· LiveData
+· Navigation Component
+· Paging 3
