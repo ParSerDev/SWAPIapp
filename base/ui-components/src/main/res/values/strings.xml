@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">swapiapp</string>
+    <string name="library">Library</string>
+    <string name="favourites">Favourites</string>
+    <string name="no_results">No results</string>
+    <string name="loading">Loading</string>
+    <string name="button_retry">Retry</string>
+    <string name="characters">Characters</string>
+    <string name="films">Films</string>
+    <string name="starships">Starships</string>
+    <string name="vehicles">Vehicles</string>
+    <string name="species">Species</string>
+    <string name="planets">Planets</string>
+
+    <!--Details Fragment-->
+    <string name="fragment_details">fragment details</string>
+    <string name="back">Back</string>
+    <string name="details_character">Created: %1$s\nEdited: %2$s\n\nGender: %3$s\nBirth year: %4$s\nHeight: %5$s\nMass: %6$s\nHair color: %7$s\nEye color: %8$s\nSkin color: %9$s</string>
+    <string name="details_film">Created: %1$s\nEdited: %2$s\n\nEpisode: %3$s\nDirector: %4$s\nProducer: %5$s\nRelease date: %6$s\n\nOpening crawl:\n%7$s</string>
+    <string name="details_starship">Created: %1$s\nEdited: %2$s\n\nModel: %3$s\nStarship class: %4$s\nManufacturer: %5$s\nCost in credits: %6$s\nLength: %7$s\nCrew: %8$s\nPassengers: %9$s\nMax atmosphering speed: %10$s\nHyperdrive rating: %11$s\nMGLT: %12$s\nCargo capacity: %13$s\nConsumables: %14$s</string>
+    <string name="details_vehicle">Created: %1$s\nEdited: %2$s\n\nModel: %3$s\nVehicle class: %4$s\nManufacturer: %5$s\nCost in credits: %6$s\nLength: %7$s\nCrew: %8$s\nPassengers: %9$s\nMax atmosphering speed: %10$s\nCargo capacity: %11$s\nConsumables: %12$s</string>
+    <string name="details_specie">Created: %1$s\nEdited: %2$s\n\nClassification: %3$s\nDesignation: %4$s\nAverage height: %5$s\nAverage lifespan: %6$s\nHair colors: %7$s\nEye colors: %8$s\nSkin colors: %9$s\nLanguage: %10$s</string>
+    <string name="details_planet">Created: %1$s\nEdited: %2$s\n\nDiameter: %3$s\nRotation period: %4$s\nOrbital period: %5$s\nGravity: %6$s\nPopulation: %7$s\nClimate: %8$s\nTerrain: %9$s\nSurface water: %10$s</string>
+
+    <!--Library Fragment-->
+    <string name="fragment_library">fragment library</string>
+    <string name="search_hint">Library Item</string>
+    <string name="library_input_text_hint">Search for…</string>
+
+    <!--Favorite Fragment-->
+    <string name="favorites">Favorites</string>
+    <string name="work_in_progress">Work in progress…</string>
+</resources>

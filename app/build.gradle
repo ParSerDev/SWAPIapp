@@ -1,0 +1,61 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'androidx.navigation.safeargs.kotlin'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+}
+
+android {
+    defaultConfig {
+        applicationId "com.parserdev.swapiapp"
+        minSdk 26
+        targetSdk 32
+        compileSdk 32
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+        freeCompilerArgs += ["-Xopt-in=kotlin.RequiresOptIn"]
+    }
+    namespace 'com.parserdev.swapiapp'
+}
+
+dependencies {
+    //project
+    implementation project(':data')
+    implementation project(':features:library')
+    implementation project(':features:favorites')
+    implementation project(':base:ui-components')
+    //libraries
+    implementation libs.core.ktx
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.constraintlayout
+    implementation libs.lifecycle.runtime.ktx
+    implementation libs.fragment.ktx
+    implementation libs.paging.runtime.ktx
+    implementation libs.dagger
+    kapt libs.dagger.compiler
+    //bundles
+    implementation libs.bundles.navigation
+    implementation libs.bundles.retrofit2
+    implementation libs.bundles.coroutines
+}

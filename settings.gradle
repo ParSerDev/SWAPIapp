@@ -1,0 +1,28 @@
+
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+}
+
+rootProject.name = "swapiapp"
+include ':app'
+include ':features'
+include ':features:library'
+enableFeaturePreview("VERSION_CATALOGS")
+include ':domain'
+include ':data'
+include ':features:favorites'
+include ':base'
+include ':base:ui-components'
