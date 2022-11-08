@@ -15,3 +15,4 @@ Technologies used:
 · LiveData
 · Navigation Component
 · Paging 3
+· Local Cache
